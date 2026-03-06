@@ -23,4 +23,14 @@ a repository contain usefull data,links,pages,examples,videos explain deeply Nav
 
 > use : `echo $ROS_DISTRO` it will prints the your ros2 version 
 
-*  
+*  Check that Nav2 has downloaded succsesfully  
+`source /opt/ros/jazzy/setup.bash`\
+`export TURTLEBOT3_MODEL=waffle`\
+`export GZ_SIM_RESOURCE_PATH=$GZ_SIM_RESOURCE_PATH:/opt/ros/jazzy/share/turtlebot3_gazebo/models`
+
+`ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py`
+
+After this you must see that all thing is working.
+
+## Third Important Concepts 
+
